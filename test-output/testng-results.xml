@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTest" duration-ms="62729" started-at="2018-03-24T08:01:51Z" finished-at="2018-03-24T08:02:54Z">
+    <groups>
+    </groups>
+    <test name="SearchTests" duration-ms="62729" started-at="2018-03-24T08:01:51Z" finished-at="2018-03-24T08:02:54Z">
+      <class name="seleniumgrid.WoodenSpoonSearchMac">
+        <test-method status="PASS" signature="AmazonSearchTest()[pri:0, instance:seleniumgrid.WoodenSpoonSearchMac@5e3a8624]" name="AmazonSearchTest" duration-ms="7358" started-at="2018-03-24T08:02:13Z" finished-at="2018-03-24T08:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method status="PASS" signature="EtsySearchTest()[pri:0, instance:seleniumgrid.WoodenSpoonSearchMac@5e3a8624]" name="EtsySearchTest" duration-ms="25330" started-at="2018-03-24T08:02:20Z" finished-at="2018-03-24T08:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EtsySearchTest -->
+      </class> <!-- seleniumgrid.WoodenSpoonSearchMac -->
+      <class name="com.saucelab.WoodenSpoonSearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.saucelab.WoodenSpoonSearch@42d80b78]" name="setUp" is-config="true" duration-ms="6712" started-at="2018-03-24T08:01:51Z" finished-at="2018-03-24T08:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumgrid.WoodenSpoonSearch@1bce4f0a]" name="setUp" is-config="true" duration-ms="3351" started-at="2018-03-24T08:01:58Z" finished-at="2018-03-24T08:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.saucelab.WoodenSpoonSearchMac@3bfdc050]" name="setUp" is-config="true" duration-ms="8833" started-at="2018-03-24T08:02:02Z" finished-at="2018-03-24T08:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seleniumgrid.WoodenSpoonSearchMac@5e3a8624]" name="setUp" is-config="true" duration-ms="2239" started-at="2018-03-24T08:02:10Z" finished-at="2018-03-24T08:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AmazonSearchTest()[pri:0, instance:com.saucelab.WoodenSpoonSearch@42d80b78]" name="AmazonSearchTest" duration-ms="13847" started-at="2018-03-24T08:02:13Z" finished-at="2018-03-24T08:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method status="PASS" signature="EtsySearchTest()[pri:0, instance:com.saucelab.WoodenSpoonSearch@42d80b78]" name="EtsySearchTest" duration-ms="26934" started-at="2018-03-24T08:02:26Z" finished-at="2018-03-24T08:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EtsySearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelab.WoodenSpoonSearch@42d80b78]" name="tearDown" is-config="true" duration-ms="150" started-at="2018-03-24T08:02:53Z" finished-at="2018-03-24T08:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumgrid.WoodenSpoonSearch@1bce4f0a]" name="tearDown" is-config="true" duration-ms="59" started-at="2018-03-24T08:02:54Z" finished-at="2018-03-24T08:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucelab.WoodenSpoonSearchMac@3bfdc050]" name="tearDown" is-config="true" duration-ms="367" started-at="2018-03-24T08:02:54Z" finished-at="2018-03-24T08:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumgrid.WoodenSpoonSearchMac@5e3a8624]" name="tearDown" is-config="true" duration-ms="209" started-at="2018-03-24T08:02:54Z" finished-at="2018-03-24T08:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucelab.WoodenSpoonSearch -->
+      <class name="seleniumgrid.WoodenSpoonSearch">
+        <test-method status="FAIL" signature="AmazonSearchTest()[pri:0, instance:seleniumgrid.WoodenSpoonSearch@1bce4f0a]" name="AmazonSearchTest" duration-ms="7659" started-at="2018-03-24T08:02:13Z" finished-at="2018-03-24T08:02:20Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Murats-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce6:17b0:8ea1:b9fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/v4/09rnf2q1247...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3eb0f31450bfbb0e3e3ef07fe78b7094]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Murats-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce6:17b0:8ea1:b9fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/v4/09rnf2q1247...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3eb0f31450bfbb0e3e3ef07fe78b7094
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.clear(Unknown Source)
+at com.seleniumgrid.AmazonPage.searchItem(AmazonPage.java:31)
+at seleniumgrid.WoodenSpoonSearch.AmazonSearchTest(WoodenSpoonSearch.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method status="FAIL" signature="EtsySearchTest()[pri:0, instance:seleniumgrid.WoodenSpoonSearch@1bce4f0a]" name="EtsySearchTest" duration-ms="13555" started-at="2018-03-24T08:02:20Z" finished-at="2018-03-24T08:02:34Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Murats-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce6:17b0:8ea1:b9fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/v4/09rnf2q1247...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3eb0f31450bfbb0e3e3ef07fe78b7094]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Murats-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce6:17b0:8ea1:b9fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/v4/09rnf2q1247...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3eb0f31450bfbb0e3e3ef07fe78b7094
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.clear(Unknown Source)
+at com.seleniumgrid.EtsyPage.searchItem(EtsyPage.java:35)
+at seleniumgrid.WoodenSpoonSearch.EtsySearchTest(WoodenSpoonSearch.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EtsySearchTest -->
+      </class> <!-- seleniumgrid.WoodenSpoonSearch -->
+      <class name="com.saucelab.WoodenSpoonSearchMac">
+        <test-method status="PASS" signature="AmazonSearchTest()[pri:0, instance:com.saucelab.WoodenSpoonSearchMac@3bfdc050]" name="AmazonSearchTest" duration-ms="4407" started-at="2018-03-24T08:02:13Z" finished-at="2018-03-24T08:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method status="FAIL" signature="EtsySearchTest()[pri:0, instance:com.saucelab.WoodenSpoonSearchMac@3bfdc050]" name="EtsySearchTest" duration-ms="398" started-at="2018-03-24T08:02:17Z" finished-at="2018-03-24T08:02:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.saucelab.WoodenSpoonSearchMac.EtsySearchTest(WoodenSpoonSearchMac.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EtsySearchTest -->
+      </class> <!-- com.saucelab.WoodenSpoonSearchMac -->
+    </test> <!-- SearchTests -->
+  </suite> <!-- SmokeTest -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]" parallel="classes">
+  <test thread-count="5" name="SearchTests(failed)" parallel="classes">
+    <classes>
+      <class name="com.saucelab.WoodenSpoonSearchMac">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="EtsySearchTest"/>
+        </methods>
+      </class> <!-- com.saucelab.WoodenSpoonSearchMac -->
+      <class name="seleniumgrid.WoodenSpoonSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="EtsySearchTest"/>
+          <include name="tearDown"/>
+          <include name="AmazonSearchTest"/>
+        </methods>
+      </class> <!-- seleniumgrid.WoodenSpoonSearch -->
+    </classes>
+  </test> <!-- SearchTests(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->
